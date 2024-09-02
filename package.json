@@ -1,0 +1,7 @@
+{
+  "name": "wrap.monorepo",
+  "description": "Certain tools for developing the Dart's wrap package.",
+  "version": "0.0.0",
+  "type": "module",
+  "private": true
+}
