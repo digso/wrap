@@ -3,5 +3,14 @@
   "description": "Certain tools for developing the Dart's wrap package.",
   "version": "0.0.0",
   "type": "module",
-  "private": true
+  "private": true,
+  "scripts": {
+    "format": "prettier --write .",
+    "check": "prettier --check ."
+  },
+  "devDependencies": {
+    "@prettier/plugin-xml": "^3.4.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-sh": "^0.14.0"
+  }
 }
