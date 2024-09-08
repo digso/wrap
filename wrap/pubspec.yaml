@@ -6,8 +6,11 @@ version: 0.0.0
 environment: {sdk: ^3.5.0, flutter: ">=3.24.1 <4.0.0"}
 
 dependencies:
+  color_chart: ^0.0.0
+  data_anno: ^0.0.0
   flutter: {sdk: flutter}
 
 dev_dependencies:
   flutter_test: {sdk: flutter}
   strict_lints: ^0.2.0
+  wrap_test: ^0.0.0
