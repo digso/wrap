@@ -1,6 +1,5 @@
 name: strict_lints
 description: Shared linter options that enables as much rules as possible.
-version: 0.0.0
-publish_to: none
+version: 0.2.0
 environment: {sdk: ">=3.4.3 <4.0.0"}
 dependencies: {flutter_lints: ^4.0.0}
