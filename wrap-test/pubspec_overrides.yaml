@@ -1,0 +1,3 @@
+dependency_overrides:
+  strict_lints: {path: ../strict-lints}
+  wrap_expect: {path: ../wrap-expect}

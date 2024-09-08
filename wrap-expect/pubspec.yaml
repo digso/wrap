@@ -1,0 +1,10 @@
+name: wrap_expect
+description: Chain-style programming support in Dart test.
+version: 0.0.0
+environment: {sdk: ">=3.4.3 <4.0.0", flutter: ">=3.22.2"}
+
+dependencies:
+  test: ^1.25.2
+
+dev_dependencies:
+  strict_lints: ^0.2.0

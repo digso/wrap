@@ -1,0 +1,6 @@
+dependency_overrides:
+  color_chart: {path: ../color-chart}
+  data_anno: {path: ../data-anno}
+  strict_lints: {path: ../strict-lints}
+  wrap_expect: {path: ../wrap-expect}
+  wrap_test: {path: ../wrap-test}
