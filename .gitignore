@@ -37,6 +37,7 @@ build/
 # Ignore Flutter and macOS lockfiles for potential usage of mirrors.
 pubspec.lock
 Podfile.lock
+go.sum
 
 # Symbolication and obfuscations.
 app.*.symbols
