@@ -1,0 +1,12 @@
+name: wrap_test
+description: Syntax sugar optimizations to simplify code in Flutter test.
+version: 0.0.0
+environment: {sdk: ">=3.4.3 <4.0.0", flutter: ">=3.22.2"}
+
+dependencies:
+  flutter: {sdk: flutter}
+  flutter_test: {sdk: flutter}
+  wrap_expect: ^0.0.0
+
+dev_dependencies:
+  strict_lints: ^0.2.0
