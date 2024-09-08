@@ -2,5 +2,16 @@
   "files.encoding": "utf8",
   "files.eol": "\n",
   "editor.tabSize": 2,
-  "editor.rulers": [80]
+  "editor.rulers": [80],
+
+  // 文件嵌套显示。
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.expand": false,
+  "explorer.fileNesting.patterns": {
+    "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.metadata,*.iml",
+    ".metadata": ".packages,.flutter-plugins,.flutter-plugins-dependencies",
+    "*.dart": "${capture}.g.dart",
+    "*.go": "${capture}_test.go",
+    "go.mod": "go.sum"
+  }
 }
