@@ -1,0 +1,11 @@
+name: data_anno
+description: Annotations and Mixins for code generating and other utils.
+version: 0.0.0
+environment: {sdk: ">=3.4.3 <4.0.0", flutter: ">=3.22.2"}
+
+dependencies:
+  flutter: {sdk: flutter}
+
+dev_dependencies:
+  flutter_test: {sdk: flutter}
+  strict_lints: ^0.2.0
