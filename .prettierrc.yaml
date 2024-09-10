@@ -2,4 +2,4 @@ semi: false
 bracketSpacing: false
 vueIndentScriptAndStyle: true
 xmlQuoteAttributes: double
-plugins: ["@prettier/plugin-xml", prettier-plugin-sh]
+plugins: [prettier-plugin-sh]
