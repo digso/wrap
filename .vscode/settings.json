@@ -12,14 +12,6 @@
   "[properties]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
   "[shellscript]": {"editor.defaultFormatter": "foxundermoon.shell-format"},
   "[dart]": {"editor.defaultFormatter": "Dart-Code.dart-code"},
-  "[go]": {
-    "editor.insertSpaces": false,
-    "editor.defaultFormatter": "golang.go"
-  },
-  "[go.mod]": {
-    "editor.insertSpaces": false,
-    "editor.defaultFormatter": "golang.go"
-  },
 
   // 文件嵌套显示。
   "explorer.fileNesting.enabled": true,
@@ -27,8 +19,6 @@
   "explorer.fileNesting.patterns": {
     "pubspec.yaml": "pubspec.lock,pubspec_overrides.yaml,.metadata,*.iml",
     ".metadata": ".packages,.flutter-plugins,.flutter-plugins-dependencies",
-    "*.dart": "${capture}.g.dart",
-    "*.go": "${capture}_test.go",
-    "go.mod": "go.sum"
+    "*.dart": "${capture}.g.dart"
   }
 }
